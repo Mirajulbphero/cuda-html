@@ -1,100 +1,156 @@
-body{
-   
-    
-    margin-top: 90px;
-  
-   
-   
-}
 
 .navbar{
-    box-shadow: 2px 2px 5px blue;
-    background-color: azure;
-    opacity: 0.9;
+    background: #000;
+
     
-
 }
-
 .nav-item{
-    font-size: 1.4rem;
-    padding-right: 20px;
-
-
-
-    .nav-link{
-        color: #252525;!important
-    }
-    .nav-link:hover{
-        color: tomato;!important
-    }
-
-  
+    padding-left: 1em;
+}
+.nav-link{
+    text-transform: uppercase;
 }
 
-
-
-
-
-#showcase{
-    position: relative;
-    background-image: url("../image/c.jpg");
-    background-size: cover; 
-    opacity: 0.7;
+.carousel-item{
+  height: 500px;
+}
+.carousel-img-1{
+    background-image: linear-gradient(rgba(242, 66, 85, 0.702),rgba(242, 66, 85, 0.702)), url("../image/b.jpg");
+    background-size: cover;
     background-repeat: no-repeat;
-    
-   
-    .primary-overlay{
-        background-color: rgba(50,100,156,0.7);!important
-        min-height: 600px;
-        position:absolute;
-        top: 0;
-        left: 0;
-        width:100%
-        height: 100%;
-     }
-    
-
-   
-
-
-    
-}
-
-
-#subscribe{
-    background-color: #252525;
-}
-
-
-#Author{
-     img{
-         margin-top: -40px;
-    }
+    background-position: center right;
    
 }
-
-.card:hover{
-    background-color: lightseagreen;
+.carousel-img-2{
+    background-image: linear-gradient(rgba(242, 66, 85, 0.702),rgba(242, 66, 85, 0.702)) , url("../image/c.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+ 
+}
+.carousel-img-3{
+    background-image: linear-gradient(rgba(242, 66, 85, 0.7),rgba(242, 66, 85,0.7)), url("../image/d.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding: 20px;
+    
+}
+/* .carousel-img-1 h2, 
+.carousel-img-2 h2, */
+.carousel-item h2 {
     color: #fff;
-    
+    font-size: 45px;
+
 }
 
 
+.fa{
+  font-size: 50px !important;
+
+  }
+
+#homestarted{
+    position: relative;
+    background-image: url("../image/m.jfif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 200px;
+}
+#homestarted h3 {
+    color: #fff;
+}
+.dark-overlay{
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 200px;
+}
+#home-video{
+    background-image: url("../image/j.jpg");
+    background-size: cover;
+}
+
+#footer{
+    background-color: #000;
+}
+
+#about-page{
+    background-image: url("../image/m.jfif");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+#service-page{
+    background-image: url("../image/image6.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+#blogPage{
+    background-image: url("../image/image5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+#contractPage{
+    background-image: url("../image/image5.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200px;
+}
+
+.image{
+    width: 250px;
+    height: 250px;
+}
+
+    .slick-prev::before,
+    .slick-next::before{
+        color: #000;
+    }
+
+.fa{
+    font-size: 20px !important;
+}
+.cardDesign{
+    background-color: black;
+}
 
 
+@media(max-width:767px){
+    .nav-item{
+        padding-left: 0em !important;
+    }
+     
+}
 @media(max-width:576px){
-.display-1{
-    font-size: 3rem;
-    color: tomato;
+    #homestarted{
+        min-height: 250px;
+    }
 }
+@media(max-width: 480px){
+    #homestarted{
+        min-height: 250px;
+        
+    }
+    @media(max-width:320px){
+        .carousel-img-1 h2, 
+        .carousel-img-2 h2,
+        .carousel-img-3 h2 {
+            font-size: 25px;
+        
+        } 
+        .carousel-item{
+            height: 550px;
+        }
+    }
 }
-
-  
-
-
-
-
-
-
-
-
