@@ -1,0 +1,100 @@
+body{
+   
+    
+    margin-top: 90px;
+  
+   
+   
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px blue;
+    background-color: azure;
+    opacity: 0.9;
+    
+
+}
+
+.nav-item{
+    font-size: 1.4rem;
+    padding-right: 20px;
+
+
+
+    .nav-link{
+        color: #252525;!important
+    }
+    .nav-link:hover{
+        color: tomato;!important
+    }
+
+  
+}
+
+
+
+
+
+#showcase{
+    position: relative;
+    background-image: url("../image/c.jpg");
+    background-size: cover; 
+    opacity: 0.7;
+    background-repeat: no-repeat;
+    
+   
+    .primary-overlay{
+        background-color: rgba(50,100,156,0.7);!important
+        min-height: 600px;
+        position:absolute;
+        top: 0;
+        left: 0;
+        width:100%
+        height: 100%;
+     }
+    
+
+   
+
+
+    
+}
+
+
+#subscribe{
+    background-color: #252525;
+}
+
+
+#Author{
+     img{
+         margin-top: -40px;
+    }
+   
+}
+
+.card:hover{
+    background-color: lightseagreen;
+    color: #fff;
+    
+}
+
+
+
+
+@media(max-width:576px){
+.display-1{
+    font-size: 3rem;
+    color: tomato;
+}
+}
+
+  
+
+
+
+
+
+
+
+
